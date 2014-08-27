@@ -1,0 +1,74 @@
+/*Inicializar todo en cero*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*Cuerpo*/
+body 
+{
+    background: #eeeeee; 
+    font-family: georgia;
+    font-size: 16px;
+}
+
+
+header 
+{
+    background: #202020;
+    color: white;
+    padding: 0.5em;
+    overflow: hidden;
+}
+
+/*Encabezado*/
+header figure
+{
+    float: left;
+    position: relative;
+}
+
+header #logo img
+{
+    width: 60px;
+    border-right: 2px solid white;
+    padding-right: 0.7em;
+    margin-right: 0.5em;
+}
+
+header #avatar img
+{
+    width: 60px;
+}
+
+header #avatar
+{
+ padding: 0.5em 0.5em 0.5em 0.5em;
+ position: absolute; 
+ top: 0;
+ right: 0;
+}
+
+header h1
+{
+ font-size: 1.2em; 
+ font-weight: normal;
+}
+
+
+/*Menu*/
+nav
+{
+  background: #63bcb8;
+  padding: 0.5em 0.5em;
+  box-shadow: rgba(0,0,0,0.5) 2px 2px 5px; /* 2px (es x) 2px (es y) 2px (es z)*/
+}
+
+nav ul
+{
+    list-style: none;
+    margin: 0 20px 0 0;
+}
+/*Comentarios*/
